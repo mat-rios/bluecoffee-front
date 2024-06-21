@@ -7,7 +7,6 @@ import styles from './Home.module.css';
 const Home = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [query, setQuery] = useState('');
   const [error, setError] = useState('');
 
   useEffect(() => {
